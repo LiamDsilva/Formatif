@@ -7,21 +7,19 @@ public class ChiffresPairs
 
 		public static void main(String[] args)
 			{
-				int[] array = {1,2,3,4,5,6,7,8,9,10};
+				//Tables d'entiers 
+				int a[]= {6, 19, 22, 36, 41, 54, 69, 73, 88, 99};
+						
+				System.out.println("Voici toutes les nombres paires: ");
 				
-					
-				if(isPair(array))
-					System.out.println("Pair");
-				else 
-					System.out.println("Impair");
+				//Voir si chaque numéro et divisble par 2
+				for(int i=0;i<a.length;i++)
+					if(a[i]%2==0)
+						
+						System.out.println(a[i]);
+		
+						
 				
-				
-			}
-
-		private static boolean isPair(int[] array)
-			{
-				// TODO Auto-generated method stub
-				return false;
 			}
 			
 
